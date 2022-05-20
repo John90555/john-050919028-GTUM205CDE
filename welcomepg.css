@@ -1,0 +1,67 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .boxx {
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/accra.JPG);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    
+    nav {
+        display: flex;
+        padding: 1% 6%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav a img {
+        width: 300px;
+        float: left;
+        padding-left: 50;
+        padding-right: 2%;
+    }
+    
+    .box-txt {
+        width: 90%;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        margin-top: 150px;
+    }
+    
+    .box-txt h1 {
+        font-size: 40px;
+    }
+    
+    .box-txt p {
+        margin: 10px 0 40px;
+        padding: 0.1em;
+        font-size: 13px;
+        color: white;
+    }
+    
+    .buttn {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        padding: 12px 34px;
+        font-size: 15px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .buttn:hover {
+        border: 1px solid rgb(110, 17, 17);
+        background: rgb(110, 17, 17);
+        transition: 1s;
+    }

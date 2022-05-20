@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.boxx {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/accra.JPG);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lnks {
+    width: 350px;
+}
+
+.lnks {
+    flex: 1;
+    text-align: right;
+}
+
+.lnks ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 9px 13px;
+    position: relative;
+}
+
+.lnks ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.lnks ul li::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: greenyellow;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.lnks ul li:hover::after {
+    width: 100%;
+}
+
+.box-txt {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 150px;
+}
+
+.box-txt h1 {
+    font-size: 40px;
+}
+
+.box-txt p {
+    margin: 10px 0 40px;
+    font-size: 13px;
+    color: white;
+}
+
+.buttn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 10px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.buttn:hover {
+    border: 1px solid rgb(110, 17, 17);
+    background: rgb(110, 17, 17);
+    transition: 1s;
+}
+
+@media(max-width:700px) {
+    .box-txt h1 {
+        font-size: 20px;
+    }
+    .lnks ul li {
+        display: block;
+    }
+    .lnks {
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+}
+
+.Activities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+p {
+    color: black;
+    font-size: 14px;
+    font-weight: 250;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-acc {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid #f44336;
+}
+
+.btn {
+    margin-left: 800px;
+    margin-bottom: 150px;
+}
+
+.btn:hover {
+    background-color: #f44336;
+}
+
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe {
+    width: 100%;
+}
+
+.contact-us {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.row {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
